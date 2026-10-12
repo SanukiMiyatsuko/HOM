@@ -1,0 +1,10 @@
+name = "HOM"
+version = "0.1.0"
+defaultTargets = ["hom"]
+
+[[lean_lib]]
+name = "HOM"
+
+[[lean_exe]]
+name = "hom"
+root = "Main"
