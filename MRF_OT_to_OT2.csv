@@ -1,0 +1,42 @@
+A,B
+Z,Z
+P 0 Z Z Z,0
+P 0 Z Z (P 0 Z Z Z),0+0
+P 0 Z Z (P 0 Z Z (P 0 Z Z Z)),0+0+0
+P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))),0+0+0+0
+P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z)))),0+0+0+0+0
+P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))))),0+0+0+0+0+0
+P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z)))))),0+0+0+0+0+0+0
+P 0 Z (P 0 Z Z Z) Z,0^0
+P 0 Z (P 0 Z Z Z) (P 0 Z Z Z),0^0+0
+P 0 Z (P 0 Z Z Z) (P 0 Z Z (P 0 Z Z Z)),0^0+0+0
+P 0 Z (P 0 Z Z Z) (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))),0^0+0+0+0
+P 0 Z (P 0 Z Z Z) (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z)))),0^0+0+0+0+0
+P 0 Z (P 0 Z Z Z) (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))))),0^0+0+0+0+0+0
+P 0 Z (P 0 Z Z Z) (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z)))))),0^0+0+0+0+0+0+0
+P 0 Z (P 0 Z Z Z) (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))))))),0^0+0+0+0+0+0+0+0
+P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) Z),0^0+0^0
+P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) Z)),0^0+0^0+0^0
+P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) Z))),0^0+0^0+0^0+0^0
+P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) Z)))),0^0+0^0+0^0+0^0+0^0
+P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) Z))))),0^0+0^0+0^0+0^0+0^0+0^0
+P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) (P 0 Z (P 0 Z Z Z) Z)))))),0^0+0^0+0^0+0^0+0^0+0^0+0^0
+P 0 Z (P 0 Z Z (P 0 Z Z Z)) Z,0^(0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) Z),0^(0+0)+0^(0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) Z)),0^(0+0)+0^(0+0)+0^(0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) Z))),0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) Z)))),0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) Z))))),0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) (P 0 Z (P 0 Z Z (P 0 Z Z Z)) Z)))))),0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)+0^(0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) Z,0^(0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) Z),0^(0+0+0)+0^(0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) Z)),0^(0+0+0)+0^(0+0+0)+0^(0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) Z))),0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) Z)))),0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) Z))))),0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) (P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))) Z)))))),0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)+0^(0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z)))) Z,0^(0+0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))))) Z,0^(0+0+0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z)))))) Z,0^(0+0+0+0+0+0)
+P 0 Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z (P 0 Z Z Z))))))) Z,0^(0+0+0+0+0+0+0)
+P 0 Z (P 0 Z (P 0 Z Z Z) Z) Z,0^0^0
